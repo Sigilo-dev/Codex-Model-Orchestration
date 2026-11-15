@@ -1,0 +1,8 @@
+# Project defaults: Sol handles day-to-day reasoning and coding.
+# A Codex host or explicit command-line model selection can override these values.
+model = "gpt-6.1-sol"
+model_reasoning_effort = "xhigh"
+
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 4
